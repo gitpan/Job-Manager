@@ -1,6 +1,6 @@
 package Job::Manager::Job;
 {
-  $Job::Manager::Job::VERSION = '0.15';
+  $Job::Manager::Job::VERSION = '0.16';
 }
 BEGIN {
   $Job::Manager::Job::AUTHORITY = 'cpan:TEX';
@@ -20,7 +20,7 @@ use namespace::autoclean;
 
 has 'config' => (
     'is'       => 'ro',
-    'isa'      => 'Config::Tree',
+    'isa'      => 'Config::Yak',
     'required' => 0,
 );
 

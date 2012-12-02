@@ -1,6 +1,6 @@
 package Job::Manager::Worker;
 {
-  $Job::Manager::Worker::VERSION = '0.15';
+  $Job::Manager::Worker::VERSION = '0.16';
 }
 BEGIN {
   $Job::Manager::Worker::AUTHORITY = 'cpan:TEX';
@@ -22,7 +22,7 @@ use Sys::Run;
 
 has 'config' => (
     'is'       => 'ro',
-    'isa'      => 'Config::Tree',
+    'isa'      => 'Config::Yak',
     'required' => 0,
 );
 

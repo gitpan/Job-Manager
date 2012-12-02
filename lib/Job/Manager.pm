@@ -1,6 +1,6 @@
 package Job::Manager;
 {
-  $Job::Manager::VERSION = '0.15';
+  $Job::Manager::VERSION = '0.16';
 }
 BEGIN {
   $Job::Manager::AUTHORITY = 'cpan:TEX';
